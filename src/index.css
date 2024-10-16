@@ -1,13 +1,62 @@
 body {
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: black; */
+  
+    background-image: url('../src/images/bg-blur.png');
+    background-size:cover;
+  
+  
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.overall-container{
+
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.reportbutton{
+
+  margin-top: 20px;
+  border: none;
+  background-color:#EBE6D2;
+  padding: 18px;
+  font-size: 18px;
+}
+.weather-report{
+
+  background-color: #B7A6F6;
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.enterbox{
+
+  padding: 10px;
+  border: none;
+  background-color: #EBE6D2;
+  border-radius: 10px;
+  height: 30px;
+  width:90%;
+  opacity: 1;
+  font-weight: bold;
+  font-size: 15px;
+ 
+}
+.pp{
+
+  font-size: 20px;
 }
